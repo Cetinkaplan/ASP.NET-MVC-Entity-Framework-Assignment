@@ -1,36 +1,53 @@
-# C# Operator Overloading - Employee Comparison
-## Please review Program.cs under myConsoleProject folder !!!
-## Project Description
+# ASP.NET MVC Insurance Quote Application
 
-This project is a C# console application that demonstrates how to create an `Employee` class and overload comparison operators.
+## Assignment Part 3
 
-The program creates two `Employee` objects and compares them based on their `Id` property. The `==` operator is overloaded so that two employees are considered equal when they have the same `Id`.
+This project is an ASP.NET MVC application that uses Entity Framework to collect customer information and automatically calculate an insurance quote.
 
-The `!=` operator is also overloaded because comparison operators must be overloaded in pairs.
+The application was created as part of an ASP.NET MVC and Entity Framework course assignment.
 
-## Requirements
+---
 
-The application includes the following:
+## Project Overview
 
-* An `Employee` class.
-* `Id`, `FirstName`, and `LastName` properties.
-* An overloaded `==` operator that compares Employee objects using their `Id`.
-* An overloaded `!=` operator as the required comparison-operator pair.
-* Two Employee objects created in `Program.cs`.
-* Values assigned to each Employee object's properties.
-* A comparison of the two Employee objects.
-* Results displayed in the console.
-* Comments throughout the code explaining what each line or block does.
+The Insurance Quote Application allows a user to enter personal and vehicle information.
+
+After the form is submitted, the application automatically calculates the customer's monthly insurance quote based on the assignment requirements.
+
+The quote is calculated by the `InsureeController` and saved to the database using Entity Framework.
+
+An Admin page is also included to display all insurance quotes that have been issued.
+
+---
 
 ## Technologies Used
 
 * C#
-* .NET
+* ASP.NET MVC
+* Entity Framework
+* .NET Framework
+* Razor
+* SQL Server
+* HTML
+* CSS
+* Bootstrap
 * Visual Studio
 * Git
 * GitHub
 
-## Project Structure
+---
 
+## Quote Calculation
 
+The insurance quote starts with a base price of:
 
+**$50 per month**
+
+### Age
+
+The following charges are added based on the customer's age:
+
+| Age         | Additional Charge |
+| ----------- | ----------------: |
+| 18 or under |             +$100 |
+| 19–25       |              +$50 |

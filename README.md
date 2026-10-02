@@ -1,54 +1,36 @@
-# C# Class and Method Assignment
+# C# Operator Overloading - Employee Comparison
+## Please review Program.cs under myConsoleProject folder !!!
+## Project Description
 
-## Description
+This project is a C# console application that demonstrates how to create an `Employee` class and overload comparison operators.
 
-This project is a C# console application created as part of a programming assignment. The purpose of the assignment is to demonstrate how to create a class, create and use a method with parameters, instantiate a class, and pass parameters to a method both normally and by name.
+The program creates two `Employee` objects and compares them based on their `Id` property. The `==` operator is overloaded so that two employees are considered equal when they have the same `Id`.
+
+The `!=` operator is also overloaded because comparison operators must be overloaded in pairs.
 
 ## Requirements
 
-The application demonstrates the following:
+The application includes the following:
 
-1. Creates a class named `MathOperations`.
-2. Creates a `void` method named `Calculate()` that accepts two integers as parameters.
-3. Performs a mathematical operation on the first integer.
-4. Displays the second integer to the console.
-5. Instantiates the `MathOperations` class in the `Main()` method.
-6. Calls the `Calculate()` method by passing two numbers normally.
-7. Calls the `Calculate()` method again using named parameters.
-8. Includes comments throughout the code to explain what each line or block does.
-
-# Please Find Method class inside of myConsoleProject and under program.cs 
+* An `Employee` class.
+* `Id`, `FirstName`, and `LastName` properties.
+* An overloaded `==` operator that compares Employee objects using their `Id`.
+* An overloaded `!=` operator as the required comparison-operator pair.
+* Two Employee objects created in `Program.cs`.
+* Values assigned to each Employee object's properties.
+* A comparison of the two Employee objects.
+* Results displayed in the console.
+* Comments throughout the code explaining what each line or block does.
 
 ## Technologies Used
 
 * C#
 * .NET
 * Visual Studio
-* Console Application
+* Git
+* GitHub
 
-## How the Program Works
+## Project Structure
 
-The program contains a `MathOperations` class with a `Calculate()` method.
-
-The method accepts two integer parameters:
-
-
-public void Calculate(int number1, int number2)
-
-The result is then displayed along with the second number.
-
-In the `Main()` method, an object of the `MathOperations` class is created:
-
-
-MathOperations math = new MathOperations();
-
-
-The method is first called using regular parameters:
-
-
-math.Calculate(10, 5);
-
-
-The method is then called using named parameters:
 
 

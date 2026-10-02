@@ -1,3 +1,21 @@
 <Solution>
+  <Folder Name="/Contollers/">
+    <File Path="InsureeController.cs" />
+  </Folder>
+  <Folder Name="/Models/">
+    <File Path="Insuree.cs" />
+  </Folder>
+  <Folder Name="/Shared/">
+    <File Path="_Layout.cshtml" />
+  </Folder>
+  <Folder Name="/Views/" />
+  <Folder Name="/Views/Insuree/">
+    <File Path="Admin.cshtml" />
+    <File Path="Create.cshtml" />
+    <File Path="Delete.cshtml" />
+    <File Path="Details.cshtml" />
+    <File Path="Edit.cshtml" />
+    <File Path="Index.cshtml" />
+  </Folder>
   <Project Path="myConsoleProject/myConsoleProject.csproj" />
 </Solution>

@@ -1,6 +1,6 @@
 # ASP.NET MVC Insurance Quote Application
 
-## Assignment Part 3
+
 
 This project is an ASP.NET MVC application that uses Entity Framework to collect customer information and automatically calculate an insurance quote.
 

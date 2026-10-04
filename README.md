@@ -34,6 +34,23 @@ An Admin page is also included to display all insurance quotes that have been is
 * Visual Studio
 * Git
 * GitHub
+* Course/project overview
+* C# skills learned
+* Object-oriented programming
+* Classes and objects
+* Inheritance
+* Interfaces
+* Polymorphism
+* Operator overloading
+* Methods and parameters
+* Arrays and collections
+* Debugging
+* ASP.NET MVC
+* Entity Framework
+* Code-First
+* SQL/database concepts
+* Projects completed during the course
+* Links to your individual GitHub projects
 
 ---
 
